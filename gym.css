@@ -1,0 +1,103 @@
+h1{
+    background-color: black;
+    color: antiquewhite;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(sig.jpg);
+    height:1300px;
+    width:1550px;
+}
+.left{
+    
+    display:inline-block;
+  
+    left: 34px;
+    position: absolute;
+    top: 20px;
+    color: white;
+    
+    
+}
+.left img{
+    width: 150px;
+    filter: invert(100);
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    border:2px solid rgb(90, 40, 40);
+    width:42%;
+    display: block;
+    margin:20px auto;
+    color: white;
+    
+
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 22px;
+   color: white;
+
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+   font-size: 18px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+ padding: 34PX 20px; 
+    color: white;
+}
+.navbar li  a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: beige;
+}
+.right button{
+    margin:0px 9 px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container{
+    padding:50px;
+    color:beige;
+    margin:100px 850px;
+    padding:60px;
+    width:33%;
+    
+
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 34px;
+    padding: 6px;
+    border:2px solid black;
+    margin:3px auto;
+    width:300px;
+     border-radius: 20%;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width:43%;
+    margin:20px auto;
+    background-color: black;
+    color: white;
+}
